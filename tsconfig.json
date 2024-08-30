@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "build",
+    "declaration": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["./"],
+  "exclude": [
+    "./build/**",
+    "./node_modules",
+    "./.vscode/**",
+    "./.github/**",
+    "./.git/**",
+    "babel.config.js",
+    ".travis.yml",
+    "./dist/**",
+    "./coverage/**",
+    "./**/*.test.ts"
+  ]
+}
