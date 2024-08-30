@@ -1,0 +1,1 @@
+export { useMediaCapabilitiesDecodingInfo } from './media-capabilities';
